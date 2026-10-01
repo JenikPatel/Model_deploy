@@ -1,6 +1,6 @@
 # Bear Classifier
 
-A simple web app that identifies the type of bear in an image. The model was trained with [fastai](https://docs.fast.ai/) and is served through a [Streamlit](https://streamlit.io/) interface, deployable on Streamlit Community Cloud.
+A simple web app that identifies the type of bear(Grizzly bear, Black bear and Teddy bear) in an image. The model was trained with [fastai](https://docs.fast.ai/) and is served through a [Streamlit](https://streamlit.io/) interface, deployable on Streamlit Community Cloud.
 
 Upload a photo (JPG, JPEG or PNG) and the app returns the predicted bear class along with the model's confidence.
 
@@ -82,7 +82,7 @@ The `--extra-index-url` line in `requirements.txt` pulls the lightweight CPU-onl
 - Keep the library versions in `requirements.txt` aligned with the environment used to train and export the model; mismatches can cause `export.pkl` to fail to load.
 
 ## Future improvements
-
+- Add more different species of bears like Polar bear
 - Cache the learner with `st.cache_resource` so the model loads once instead of on every upload
 - Show the top-3 predictions with probabilities
 - Add example images for quick testing
