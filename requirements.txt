@@ -1,0 +1,9 @@
+streamlit
+fastai
+fastcore
+fasttransform
+plum-dispatch
+torch
+torchvision
+numpy
+sys
